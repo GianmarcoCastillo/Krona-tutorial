@@ -5,11 +5,17 @@ Krona Tutorial install
 mkdir taxonomy
 
 wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+
 wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/accesion2taxid/dead_prot.accesion2taxid.gz
+
 wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/accesion2taxid/dead_wgs.accession2taxid.gz
+
 wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/accesion2taxid/nucl_gb.accession2taxid.gz
+
 wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/accesion2taxid/nucl_wgs.accession2taxid.gz
+
 wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/accesion2taxid/prot.accession2taxid.gz
+
 wget -c ftp://ftp.ncbi.nih.gov/pub/taxonomy/accesion2taxid/dead_nucl.accession2taxid.gz
 
 mkdir taxonomy/accession2taxid
