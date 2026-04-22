@@ -31,7 +31,7 @@ cd KronaTools-2.8.1
 
 perl install.pl --prefix /media/mordor/gianmarco/apps/krona/KronaTools-2.8.1  ## Install krona PATH!!
 
-./updateTaxonomy.sh --only-build   ## Install database Taxonomy
+./updateTaxonomy.sh --only-build     ## Install database Taxonomy
 
-./updateAccessions.sh --only-build     ## Install Accession
+./updateAccessions.sh --only-build       ## Install Accession
 
